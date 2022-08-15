@@ -6,7 +6,9 @@ The Real-time Data Platform
 The multi-model, NoSQL real-time data platform for multi-cloud, large-scale JSON and SQL use cases. The Aerospike database has the lowest latency with predictable performance at any scale, with industry-leading uptime, requiring up to 80% less infrastructure.
 
 
-[Official Aerospike Website](https://aerospike.com/)
+Go to [Official Aerospike Website](https://aerospike.com/) to read more. 
+
+
 
 
                                                    
