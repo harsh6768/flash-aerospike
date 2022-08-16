@@ -43,10 +43,10 @@ Follow this link to have better understanding [Docker Image](https://hub.docker.
 
 
 
-#### Run Aerospike Query Language ( AQL ) in docker image by running below command
+## Run Aerospike Query Language ( AQL ) in docker image by running below command
 
         
-        docker run -ti aerospike/aerospike-server aql -h  $(docker inspect -f '{{.NetworkSettings.IPAddress }}' aerospike)
+     docker run -ti aerospike/aerospike-server aql -h  $(docker inspect -f '{{.NetworkSettings.IPAddress }}' aerospike)
 
 
 
