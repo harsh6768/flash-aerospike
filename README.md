@@ -9,6 +9,27 @@ The multi-model, NoSQL real-time data platform for multi-cloud, large-scale JSON
 Go to [Official Aerospike Website](https://aerospike.com/) to read more. 
 
 
+### Install aerospike on mac or windows : 
+
+Step 1 : You have to install setup of [Docker Desktop](https://www.docker.com/products/docker-desktop/) on mac and run Docker Desktop. 
+
+Step 2 : Deploying Aerospike clusters with Docker :
+
+ follow this link to download the aerospike : https://www.docker.com/products/docker-desktop/ 
+ 
+Step 3 : We will be running Aerospike Community Version of container on Mac : 
+
+        
+    Run below command : 
+    
+    
+        docker pull aerospike/aerospike-server
+
+
+
+
+
+
 
 
                                                    
