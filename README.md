@@ -13,11 +13,16 @@ Go to [Official Aerospike Website](https://aerospike.com/) to read more.
 
 Step 1 : You have to install setup of [Docker Desktop](https://www.docker.com/products/docker-desktop/) on mac and run Docker Desktop. 
 
+<img src="https://github.com/harsh6768/flash-aerospike/blob/master/Images/Screenshot%202022-08-16%20at%2010.49.06%20PM.png"/>
+
+
 Step 2 : Deploying Aerospike clusters with Docker :
 
     follow this link to download the aerospike : https://www.docker.com/products/docker-desktop/ 
  
 Step 3 : We will be running Aerospike Community Version of container on Mac : 
+
+<img src="https://github.com/harsh6768/flash-aerospike/blob/master/Images/Screenshot%202022-08-16%20at%2010.51.05%20PM.png"/>
 
         
 Run below command  to install docker image : 
