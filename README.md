@@ -49,7 +49,6 @@ Follow this link to have better understanding [Docker Image](https://hub.docker.
      docker run -ti aerospike/aerospike-server aql -h  $(docker inspect -f '{{.NetworkSettings.IPAddress }}' aerospike)
 
 
-
-
+<img src="https://github.com/harsh6768/flash-aerospike/blob/master/Images/Screenshot%202022-08-16%20at%2011.16.27%20PM.png"/>
 
                                                    
