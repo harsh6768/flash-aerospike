@@ -60,4 +60,4 @@ Follow this link to have better understanding [Docker Image](https://hub.docker.
     /etc/aerospike/aerospike.conf
 
 
-#### Goto Aerospike Documentation for details information of [Aerospike Configuration](https://docs.aerospike.com/server/operations/configure)
+#### Goto Aerospike Documentation for detailed information of [Aerospike Configuration](https://docs.aerospike.com/server/operations/configure)
