@@ -51,4 +51,8 @@ Follow this link to have better understanding [Docker Image](https://hub.docker.
 
 <img src="https://github.com/harsh6768/flash-aerospike/blob/master/Images/Screenshot%202022-08-16%20at%2011.16.27%20PM.png"/>
 
-                                                   
+                                               
+                                               
+ # Aerospike Configuration 
+ 
+ #### Aerospike uses a single file to configure a database node. The default location of the configuration file is /etc/aerospike/aerospike.conf.
