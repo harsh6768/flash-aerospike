@@ -1,0 +1,25 @@
+{
+  "name": "flash-aerospike",
+  "version": "1.0.0",
+  "description": "Aerospike Database is a flash memory and in-memory open source distributed key value NoSQL database management system, marketed by the company also named Aerospike",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harsh6768/flash-aerospike.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harsh6768/flash-aerospike/issues"
+  },
+  "homepage": "https://github.com/harsh6768/flash-aerospike#readme",
+  "dependencies": {
+    "aerospike": "^5.0.3",
+    "config": "^3.3.7",
+    "express": "^4.18.1"
+  }
+}

@@ -1,0 +1,13 @@
+{
+    "aerospikeServer":{
+        "name": "aerospike",
+        "hosts":[
+            {
+                "addr": "",
+                "port": 3000
+            }
+        ],
+        "nameSpace":"user-personas",
+        "set": "user_attributes"
+    }
+}
