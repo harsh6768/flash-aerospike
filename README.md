@@ -30,7 +30,11 @@ Run below command  to install docker image :
     
      docker pull aerospike/aerospike-server
      
-     
+
+### Docker Container Run images, for better understading : 
+
+https://docs.aerospike.com/tools/deploy_guides/docker/tools
+
 Run below command to run the container of aerospike on detach mode : 
 
     
