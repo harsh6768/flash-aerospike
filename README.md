@@ -9,6 +9,10 @@ The multi-model, NoSQL real-time data platform for multi-cloud, large-scale JSON
 Go to [Official Aerospike Website](https://aerospike.com/) to read more. 
 
 
+## Install Aerospike on Ubuntu : 
+
+Follow [this link ](https://docs.aerospike.com/tools/install/ubuntu) to install aerospike on ubuntu.
+
 ## Install aerospike on mac or windows : 
 
 Step 1 : You have to install setup of [Docker Desktop](https://www.docker.com/products/docker-desktop/) on mac and run Docker Desktop. 
