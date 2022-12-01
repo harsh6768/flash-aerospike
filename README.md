@@ -23,7 +23,89 @@ Follow [this link ](https://docs.aerospike.com/tools/install/ubuntu) to install 
  
         tar -xvf aerospike.tgz
   
-  3. 
+  3.  Go to the aerospike folder , run below command 
+
+        cd aerospike-server-community-6.0.0.5-ubuntu18.04/
+        
+  4.  Run below command to install aerospike by running below command 
+
+        sudo  ./asinstall 
+  
+  5. Configure Aerospike conf file , go the below mentioned path and edit aerospike.conf
+
+       cd /etc/aerospike/aerospike.conf
+       
+  6. vi aerospike.conf 
+
+
+        # Aerospike database configuration file for use with systemd.
+
+    service {
+            paxos-single-replica-limit 1 # Number of nodes where the replica count is automatically reduced to 1.
+            proto-fd-max 15000
+    }
+
+    logging {
+
+        # Log file must be an absolute path.
+        file /opt/logs/aerospike.log {
+            context any info
+       }
+
+        # Send log messages to stdout
+        console {
+            context any info
+        }
+    }
+    #
+    #
+
+
+    network {
+            service {
+                    address any
+                    port 3000
+            }
+
+            heartbeat {
+                    mode mesh
+                    address Ip_address_of_server
+                    port 3002
+                    #mesh-seed-address-port 127.0.0.1 3002 # IP address for seed node in the cluster
+                    #mesh-seed-address-port 127.0.0.1 3002 # IP address for seed node in the cluster
+                    #mesh-seed-address-port 127.0.0.1 3002 # IP address for seed node in the cluster
+
+                    # To use unicast-mesh heartbeats, remove the 3 lines above, and see
+                    # aerospike_mesh.conf for alternative.
+
+                    interval 150
+                    timeout 10
+            }
+
+            fabric {
+                    port 3001
+            }
+
+            info {
+                    port 3003
+            }
+      }
+
+
+      namespace test_users{
+            replication-factor 2
+            memory-size 4G
+
+            storage-engine device {
+            file /opt/aerospike/data/user.dat
+            filesize 20G
+            data-in-memory false
+       }
+      }
+      
+  7. Create log folder for aerospike logs 
+
+     /opt/
 
 ## Install aerospike on mac or windows : 
 
