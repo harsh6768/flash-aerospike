@@ -11,7 +11,19 @@ Go to [Official Aerospike Website](https://aerospike.com/) to read more.
 
 ## Install Aerospike on Ubuntu : 
 
-Follow [this link ](https://docs.aerospike.com/tools/install/ubuntu) to install aerospike on ubuntu.
+Follow [this link ](https://docs.aerospike.com/tools/install/ubuntu) to install aerospike tools on ubuntu.
+
+ There are multiple steps to install aerospike on linux :
+ 
+ 1. Run below command to download aerospike into linux 
+ 
+               wget -O aerospike.tgz https://download.aerospike.com/artifacts/aerospike-server-community/6.0.0.5/aerospike-server-community-6.0.0.5-ubuntu18.04.tgz
+               
+ 2. unzip tgz file , run below command 
+ 
+             tar -xvf aerospike.tgz
+  
+  3. 
 
 ## Install aerospike on mac or windows : 
 
