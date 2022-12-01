@@ -38,7 +38,8 @@ Follow [this link ](https://docs.aerospike.com/tools/install/ubuntu) to install 
   6. vi aerospike.conf 
 
 
-        # Aerospike database configuration file for use with systemd.
+        
+    #Aerospike database configuration file for use with systemd.
 
     service {
             paxos-single-replica-limit 1 # Number of nodes where the replica count is automatically reduced to 1.
