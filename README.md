@@ -17,11 +17,11 @@ Follow [this link ](https://docs.aerospike.com/tools/install/ubuntu) to install 
  
  1. Run below command to download aerospike into linux 
  
-               wget -O aerospike.tgz https://download.aerospike.com/artifacts/aerospike-server-community/6.0.0.5/aerospike-server-community-6.0.0.5-ubuntu18.04.tgz
+        wget -O aerospike.tgz https://download.aerospike.com/artifacts/aerospike-server-community/6.0.0.5/aerospike-server-community-6.0.0.5-ubuntu18.04.tgz --no-check-certificate
                
  2. unzip tgz file , run below command 
  
-             tar -xvf aerospike.tgz
+        tar -xvf aerospike.tgz
   
   3. 
 
