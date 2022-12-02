@@ -25,15 +25,15 @@ Follow [this link ](https://docs.aerospike.com/tools/install/ubuntu) to install 
   
   3.  Go to the aerospike folder , run below command 
 
-        cd aerospike-server-community-6.0.0.5-ubuntu18.04/
+           cd aerospike-server-community-6.0.0.5-ubuntu18.04/
         
   4.  Run below command to install aerospike by running below command 
 
-        sudo  ./asinstall 
+            sudo  ./asinstall 
   
   5. Configure Aerospike conf file , go the below mentioned path and edit aerospike.conf
 
-       cd /etc/aerospike/aerospike.conf
+            cd /etc/aerospike/aerospike.conf
        
   6. vi aerospike.conf 
 
