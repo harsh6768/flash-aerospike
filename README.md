@@ -110,11 +110,11 @@ Follow [this link ](https://docs.aerospike.com/tools/install/ubuntu) to install 
      
   8. Aerospike service commands to start, stop or check status of the aerospike service 
   
-        service  aerospike start        // to start the aerospike service 
+            service  aerospike start        // to start the aerospike service 
          
-        service aerospike stop          // to stop the aerospike service
+            service aerospike stop          // to stop the aerospike service
         
-        service aerospike status        // to check status of the aerospike service
+            service aerospike status        // to check status of the aerospike service
         
 
 ## Install aerospike on mac or windows : 
