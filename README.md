@@ -242,3 +242,14 @@ Follow this link to have better understanding [Docker Image](https://hub.docker.
             data-in-memory false
       }
     }
+    
+    
+## Aerospike Query Language (AQL) :  
+
+   run below commands to run aql query : 
+   
+   
+         aql        //run aql to get inside into aerospike echosystem
+   
+
+
