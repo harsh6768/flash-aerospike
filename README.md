@@ -33,7 +33,7 @@ Follow [this link ](https://docs.aerospike.com/tools/install/ubuntu) to install 
   
   5. Configure Aerospike conf file , go the below mentioned path and edit aerospike.conf
 
-            cd /etc/aerospike/aerospike.conf
+            vi /etc/aerospike/aerospike.conf
        
   6. vi aerospike.conf 
 
