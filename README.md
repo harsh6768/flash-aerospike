@@ -255,7 +255,7 @@ Follow this link to have better understanding [Docker Image](https://hub.docker.
    run below commands to run aql query : 
    
    
-         aql        //run aql to get inside into aerospike echosystem
+     aql        //run aql to get inside into aerospike echosystem
    
 
 
